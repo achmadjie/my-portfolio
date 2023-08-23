@@ -1,0 +1,26 @@
+.color{
+	border-color: var(--orange);
+	color: var(--orange);
+	/* background-color: var(--orange); */
+}
+
+.color:hover{
+	color: var(--pure-white);
+	/* border-width: none; */
+	border-color: var(--orange);
+	background-color: var(--orange);
+	transition: all 500ms ease-out;
+	box-shadow: 0px 0px 15px 15px rgba(254, 107, 0, 0.50);
+}
+
+.font-color{
+	color: var(--pure-white);
+}
+
+.bg-color{
+	background-color: var(--black);
+}
+
+.nav-font{
+	font-family: var(--heading-font);
+}
