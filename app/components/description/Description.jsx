@@ -39,8 +39,8 @@ function Description() {
 
 				For whatever reason it is you are here, welcome 😎`,
               ]}
-              speed={50}
-              repeat={Infinity}
+              speed={55}
+              // repeat={Infinity}
             />
             {/* Passionate about web development with a focus on frontend
             expertise. Proficient across diverse technologies and programming
