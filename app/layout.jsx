@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "./globals.css"
 import Headline from './components/head/Headline'
 import Description from './components/description/Description'
+import LatestProject from './components/latest-project/LatestProject'
 
 // const conv = Convergence({ 
 //   subsets: ['latin'],
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Headline />
         <Description />
-        {/* {children} */}
+        <LatestProject />
       </body>
     </html>
   )
