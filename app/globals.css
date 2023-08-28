@@ -13,7 +13,7 @@
   --pure-white: #F1F6F5;
   --black: #1F1F1F;
   --heading-font: "Convergence";
-  
+  scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: dark) {
