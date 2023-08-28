@@ -5,8 +5,9 @@ import normal_star from "../../../public/normal.svg";
 import three_star from "../../../public/three.svg";
 import small_star from "../../../public/small.svg";
 import { BsArrowDown } from "react-icons/bs";
+import scroll_arrow from "../../../public/Arrow.svg"
 import { Monomaniac_One, Vollkorn, Convergence } from "next/font/google";
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 import "./Headline.css";
 
 const headlineFont = Monomaniac_One({
@@ -70,7 +71,7 @@ function Headline() {
         <div className="d-flex align-items-start keep-scroll-container position-absolute bottom-0 justify-center">
           <div className={`arrow-down position-relative`}>
             <BsArrowDown className={`keep-scroll-icon`} />
-            <BsArrowDown className={`keep-scroll-icon`} />
+            {/* <Image className={`.keep-scroll-icon`} src={scroll_arrow} alt="arrow-scroll-down" /> */}
           </div>
           <span className={`keep-scroll-text ${conv.className}`}>
             Keep Scrolling

@@ -5,7 +5,7 @@
 
 .main-container {
   width: 85%;
-  height: 600px;
+  height: 650px;
 }
 
 .main-headline {
@@ -62,60 +62,63 @@ p.headline-desc {
   animation: blink 4s infinite;
 }
 
-.star-glow.star-top{
-	animation-delay: -5s;
+.star-glow.star-top {
+  animation-delay: -5s;
 }
-.star-glow.star-left{
-	animation-delay: -15s;
+.star-glow.star-left {
+  animation-delay: -15s;
 }
-.star-glow.star-right{
-	animation-delay: -40s;
+.star-glow.star-right {
+  animation-delay: -40s;
 }
-.star-glow.star-bottom{
-	animation-delay: -30s;
+.star-glow.star-bottom {
+  animation-delay: -30s;
 }
 
 @keyframes blink {
   0% {
     opacity: 0;
-	filter: none;
+    filter: none;
   }
 
   50% {
     opacity: 100%;
-	filter: drop-shadow(0px 0px 1.5240000486373901px #F1F6F5) drop-shadow(0px 0px 3.0480000972747803px #F1F6F5) drop-shadow(0px 0px 10.668000221252441px #F1F6F5) drop-shadow(0px 0px 21.336000442504883px #F1F6F5) drop-shadow(0px 0px 36.57600021362305px #F1F6F5) drop-shadow(0px 0px 64.00800323486328px #F1F6F5);;
+    filter: drop-shadow(0px 0px 1.5240000486373901px #f1f6f5)
+      drop-shadow(0px 0px 3.0480000972747803px #f1f6f5)
+      drop-shadow(0px 0px 10.668000221252441px #f1f6f5)
+      drop-shadow(0px 0px 21.336000442504883px #f1f6f5)
+      drop-shadow(0px 0px 36.57600021362305px #f1f6f5)
+      drop-shadow(0px 0px 64.00800323486328px #f1f6f5);
   }
 
   100% {
-	opacity: 0;
+    opacity: 0;
     filter: none;
   }
 }
 
 .keep-scroll-container {
   width: fit-content;
-  height: 45px;
+  height: 55px;
   overflow: hidden;
 }
 
 .keep-scroll-icon {
   font-size: 2.9rem;
   color: var(--orange);
-  animation: scroll-down 3s infinite;
+  animation: down 1.5s linear infinite;
 }
 
-@keyframes scroll-down {
-	0%{
-		opacity: 0;
-	}
-
-	50%{
-		opacity: 100%;
-	}
-
-	100%{
-		opacity: 0;
-	}
+@keyframes down {
+  0% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px);
+  }
 }
 
 .keep-scroll-text {
