@@ -1,0 +1,9 @@
+.project_container{
+	background-color: var(--black);
+	width: fit-content;
+}
+
+.project_heading{
+	color: var(--pure-white);
+	top: -50px;
+}
