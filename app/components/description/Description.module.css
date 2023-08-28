@@ -1,0 +1,55 @@
+.desc_section {
+  background-color: var(--black);
+  height: 754px;
+}
+
+.desc_with_scrib {
+  max-height: fit-content;
+  max-width: 36%;
+  text-align: justify;
+  gap: 50px;
+}
+
+.desc_container {
+  max-width: 84%;
+}
+
+.heading_text {
+  color: var(--pure-white);
+  font-size: 2.25rem;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+span.heading_name {
+  color: var(--orange);
+  font-weight: 800;
+}
+
+.desc_text {
+  color: #f1f6f5;
+  font-size: 1.25rem;
+  white-space: pre-line;
+}
+
+.vector {
+  display: inline-block;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  opacity: 90%;
+}
+
+.vector_left {
+  top: 200px;
+  left: 250px;
+}
+
+.vector_right {
+  top: 65px;
+  right: 230px;
+}
+
+.scrib_vector {
+  opacity: 85%;
+}
