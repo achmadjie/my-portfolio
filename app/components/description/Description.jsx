@@ -36,8 +36,8 @@ function Description() {
             <TypeAnimation
               sequence={[
                 `Passionate about web development with a focus on frontend expertise. Proficient across diverse technologies and programming languages. Competent in crafting dynamic, responsive websites, leveraging frameworks like React.js and Bootstrap. Proven record of improving user satisfaction across multiple sites.
-
-				For whatever reason it is you are here, welcome 😎`,
+                
+                For whatever reason it is you are here, welcome 😎`,
               ]}
               speed={55}
               // repeat={Infinity}
@@ -56,9 +56,8 @@ function Description() {
           alt="scribble-vector"
         />
       </div>
-
       <Image
-        className={`${styles.vector} ${styles.vector_right}`}
+        className={`${styles.vector} ${styles.vector_right} `}
         src={smile_arrow}
         alt="smile-arrow-vector"
       />

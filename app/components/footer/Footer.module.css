@@ -1,0 +1,94 @@
+.footer_section{
+	/* background-color: var(--black); */
+	background-color: var(--black);
+	color: var(--pure-white);
+	width: 100%;
+	height: 700px;
+	gap: 2rem;
+}
+
+.blink_container{
+	width: 432px;
+	height: 65px;
+	top: 32.5%;
+	animation: spark 1.5s ease-in-out infinite;
+}
+
+@keyframes spark {
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+/* .blink_container:hover .blink_img{
+	opacity: 1;
+} */
+
+.blink_img{
+	max-width: 20px;
+	/* opacity: 0; */
+}
+
+.footer_title{
+	font-size: 2.5rem;
+	color: var(--orange);
+	font-weight: bold;
+	cursor: default;
+}
+
+.footer_contact{
+	font-size: 1.5rem;
+	gap: .8rem;
+}
+
+.footer_socmed{
+	gap: 1rem;
+}
+
+.socmed_logo{
+	font-size: 2.2rem;
+}
+
+.copyright_section span{
+	font-size: .9rem;
+	color: var(--pure-white);
+	cursor: default;
+}
+
+.cube_vector{
+	animation: vertcal 3s linear infinite;
+}
+
+@keyframes vertcal {
+	0%{
+		transform: translateY(-10px);
+	}
+	50%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+
+/* .snake_vector{
+	animation: bottomRight 6s ease-in-out infinite;
+}
+
+@keyframes bottomRight {
+	0%{
+		transform: translate(50px, 30px);
+	}
+	50%{
+		transform: translate(-50px, -30px);
+	}
+	100%{
+		transform: translate(50px, 30px);
+	}
+} */

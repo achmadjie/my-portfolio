@@ -1,0 +1,20 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cubes" opacity="0.8">
+<g id="cube">
+<rect id="Rectangle 3" x="78.6386" y="177.871" width="99.1378" height="99.1378" transform="rotate(-90 78.6386 177.871)" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<rect id="Rectangle 4" x="53.2926" y="152.336" width="99.1378" height="98.9494" transform="rotate(-90 53.2926 152.336)" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 8" d="M77.737 178.811L52.35 153.253" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 9" d="M77.9366 78.0308L52.4021 52.4963" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 10" d="M178.705 77.7927L153.168 52.2547" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 11" d="M178.479 178.573L152.944 153.038" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+</g>
+<g id="cube_2">
+<rect id="Rectangle 3_2" x="27.5696" y="126.802" width="99.1378" height="99.1378" transform="rotate(-90 27.5696 126.802)" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<rect id="Rectangle 4_2" x="2.22363" y="101.267" width="99.1378" height="98.9494" transform="rotate(-90 2.22363 101.267)" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 8_2" d="M26.668 127.743L1.28107 102.184" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 9_2" d="M26.8676 26.9619L1.33313 1.42745" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 10_2" d="M127.636 26.7239L102.099 1.18586" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+<path id="Vector 11_2" d="M127.41 127.504L101.875 101.969" stroke="#F1F6F5" stroke-opacity="0.8" stroke-width="3"/>
+</g>
+</g>
+</svg>

@@ -5,8 +5,9 @@ import normal_star from "../../../public/normal.svg";
 import three_star from "../../../public/three.svg";
 import small_star from "../../../public/small.svg";
 import { BsArrowDown } from "react-icons/bs";
-import scroll_arrow from "../../../public/Arrow.svg"
+// import scroll_arrow from "../../../public/Arrow.svg"
 import { Monomaniac_One, Vollkorn, Convergence } from "next/font/google";
+import 'animate.css';
 // import { gsap } from "gsap";
 import "./Headline.css";
 
@@ -60,7 +61,7 @@ function Headline() {
             alt="headline-image"
           />
           <div className="tagline-container d-flex flex-column justify-center gap-2">
-            <h1 className={`${headlineFont.className} headline`}>
+            <h1 className={`${headlineFont.className} headline animate__bounceIn animate__repeat-2`}>
               Frontend Developer
             </h1>
             <p className={`${headlineDesc.className} headline-desc`}>
