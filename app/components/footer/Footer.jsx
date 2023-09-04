@@ -31,12 +31,18 @@ const Footer = () => {
         src={cubeVector}
         alt="Cube-Vector"
       />
-      <div className={`${styles.blink_container} position-absolute`}>
-        <Image className={`${styles.blink_img}`} src={blink} alt="blink-image"/>
+      <div className={`d-flex justify-center align-items-center position-relative ${styles.blink_title}`}>
+        <div className={`${styles.blink_container} position-absolute`}>
+          <Image
+            className={`${styles.blink_img}`}
+            src={blink}
+            alt="blink-image"
+          />
+        </div>
+        <h2 className={`${styles.footer_title} ${conv.className}`}>
+          Get In Touch With Me
+        </h2>
       </div>
-      <h2 className={`${styles.footer_title} ${conv.className}`}>
-        Get In Touch With Me
-      </h2>
       <div
         className={`${styles.footer_contact} ${vol.className} d-flex flex-column text-center`}
       >
