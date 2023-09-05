@@ -17,7 +17,7 @@ const descText = Vollkorn({
 function Description() {
   return (
     <div
-      className={`${styles.desc_section} position-relative w-100 d-flex justify-center align-items-center`}
+      id="desc" className={`${styles.desc_section} position-relative w-100 d-flex justify-center align-items-center`}
     >
       <Image
         className={`${styles.vector_left} ${styles.vector}`}
