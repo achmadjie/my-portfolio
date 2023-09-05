@@ -39,7 +39,7 @@ function Description() {
                 `Passionate about web development with a focus on frontend expertise. Proficient across diverse technologies and programming languages. Competent in crafting dynamic, responsive websites, leveraging frameworks like React.js and Bootstrap. Proven record of improving user satisfaction across multiple sites.
                 
                 For whatever reason it is you are here, welcome 😎`,
-                800,
+                2000,
                 "",
               ]}
               speed={50}
