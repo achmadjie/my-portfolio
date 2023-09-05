@@ -3,7 +3,7 @@
   background-image: url("../../../public/waveBg.svg");
   /* background-size: 100% 100%; */
   background-repeat: no-repeat;
-  padding: 30% 0 25%;
+  padding: 25% 0;
   object-fit: cover;
   width: 100%;
 }
@@ -12,7 +12,7 @@
   color: var(--pure-white);
   /* top: -50px; */
   font-size: 5rem;
-  top: 25%;
+  top: 20%;
 }
 
 .carousel_container {
