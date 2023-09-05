@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import profile_pic from "../../assets/profile_picture.png";
@@ -6,8 +8,9 @@ import three_star from "../../../public/three.svg";
 import small_star from "../../../public/small.svg";
 import { BsArrowDown } from "react-icons/bs";
 // import scroll_arrow from "../../../public/Arrow.svg"
+import { TypeAnimation } from "react-type-animation";
 import { Monomaniac_One, Vollkorn, Convergence } from "next/font/google";
-import 'animate.css';
+import "animate.css";
 // import { gsap } from "gsap";
 import "./Headline.css";
 
@@ -61,11 +64,29 @@ function Headline() {
             alt="headline-image"
           />
           <div className="tagline-container d-flex flex-column justify-center gap-2">
-            <h1 className={`${headlineFont.className} headline animate__bounceIn animate__repeat-2`}>
+            <h1
+              className={`${headlineFont.className} headline animate__bounceIn animate__repeat-2`}
+            >
               Frontend Developer
             </h1>
             <p className={`${headlineDesc.className} headline-desc`}>
-              I code beautifully simple things and I love what I do.
+              <TypeAnimation
+                preRenderFirstString={false}
+                sequence={[
+                  `I code beautifully simple things and I love what I do.`,
+                  2000,
+                  ``,
+                  500,
+                  // `I code beautifully simple things and I love to learn human behavior.`,
+                  // 3000,
+                ]}
+                speed={30}
+                repeat={Infinity}
+                deletionSpeed={65}
+
+                // omitDeletionAnimation={true}
+              />
+              {/* I code beautifully simple things and I love what I do. */}
             </p>
           </div>
         </div>

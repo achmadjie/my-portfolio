@@ -23,6 +23,10 @@
   width: fit-content;
 }
 
+.headline-desc{
+  height: 70px;
+}
+
 h1.headline {
   font-size: 4.6875rem;
   color: var(--orange);
