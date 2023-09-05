@@ -7,6 +7,7 @@ import scrib from "../../../public/Scribble.svg";
 import smile_arrow from "../../../public/smile-arrow.svg";
 import { TypeAnimation } from "react-type-animation";
 import { Vollkorn } from "next/font/google";
+// import { gsap } from "gsap";
 import styles from "./Description.module.css";
 
 const descText = Vollkorn({
@@ -38,9 +39,13 @@ function Description() {
                 `Passionate about web development with a focus on frontend expertise. Proficient across diverse technologies and programming languages. Competent in crafting dynamic, responsive websites, leveraging frameworks like React.js and Bootstrap. Proven record of improving user satisfaction across multiple sites.
                 
                 For whatever reason it is you are here, welcome 😎`,
+                800,
+                "",
               ]}
-              speed={55}
-              // repeat={Infinity}
+              speed={50}
+              repeat={Infinity}
+              // deletionSpeed={70}
+              omitDeletionAnimation={true}
             />
             {/* Passionate about web development with a focus on frontend
             expertise. Proficient across diverse technologies and programming
