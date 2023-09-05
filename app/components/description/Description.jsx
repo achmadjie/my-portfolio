@@ -1,11 +1,11 @@
-"use client";
+// "use client";
 
 import React from "react";
 import Image from "next/image";
 import tornado from "../../../public/tornado.svg";
 import scrib from "../../../public/Scribble.svg";
 import smile_arrow from "../../../public/smile-arrow.svg";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 import { Vollkorn } from "next/font/google";
 // import { gsap } from "gsap";
 import styles from "./Description.module.css";
@@ -34,24 +34,24 @@ function Description() {
             here. Obviously!
           </h2>
           <p className={`${descText.className} ${styles.desc_text}`}>
-            <TypeAnimation
+            {/* <TypeAnimation
               sequence={[
                 `Passionate about web development with a focus on frontend expertise. Proficient across diverse technologies and programming languages. Competent in crafting dynamic, responsive websites, leveraging frameworks like React.js and Bootstrap. Proven record of improving user satisfaction across multiple sites.
                 
                 For whatever reason it is you are here, welcome 😎`,
-                2000,
+                6000,
                 "",
               ]}
-              speed={50}
+              speed={90}
               repeat={Infinity}
               // deletionSpeed={70}
               omitDeletionAnimation={true}
-            />
-            {/* Passionate about web development with a focus on frontend
+            /> */}
+            Passionate about web development with a focus on frontend
             expertise. Proficient across diverse technologies and programming
             languages. Competent in crafting dynamic, responsive websites,
             leveraging frameworks like React.js and Bootstrap. Proven record of
-            improving user satisfaction across multiple sites. */}
+            improving user satisfaction across multiple sites.
           </p>
           <p className={`${descText.className} ${styles.desc_text}`}></p>
         </div>

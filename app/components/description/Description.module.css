@@ -1,6 +1,6 @@
 .desc_section {
   background-color: var(--black);
-  padding: 10% 0;
+  padding: 12% 0;
 }
 
 .desc_with_scrib {
@@ -31,7 +31,7 @@ span.heading_name {
   color: #f1f6f5;
   font-size: 1.25rem;
   white-space: pre-line;
-  height: 130px;
+  /* height: 130px; */
 }
 
 .vector {
