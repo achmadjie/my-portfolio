@@ -24,6 +24,7 @@ const vol = Vollkorn({
 const Footer = () => {
   return (
     <div
+      id="footer"
       className={`${styles.footer_section} position-relative d-flex flex-column align-items-center justify-center`}
     >
       <Image
@@ -31,7 +32,9 @@ const Footer = () => {
         src={cubeVector}
         alt="Cube-Vector"
       />
-      <div className={`d-flex justify-center align-items-center position-relative ${styles.blink_title}`}>
+      <div
+        className={`d-flex justify-center align-items-center position-relative ${styles.blink_title}`}
+      >
         <div className={`${styles.blink_container} position-absolute`}>
           <Image
             className={`${styles.blink_img}`}
