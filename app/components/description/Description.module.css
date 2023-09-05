@@ -6,13 +6,14 @@
 .desc_with_scrib {
   /* max-height: fit-content; */
   max-width: 36%;
-  text-align: justify;
+  text-align: left;
   gap: 60px;
 }
 
 .desc_container {
   max-width: 83%;
   height: fit-content;
+  cursor: default;
 }
 
 .heading_text {
@@ -27,10 +28,15 @@ span.heading_name {
   font-weight: 800;
 }
 
+.desc_paragraf{
+  gap: 10px;
+}
+
 .desc_text {
   color: #f1f6f5;
   font-size: 1.25rem;
   white-space: pre-line;
+  letter-spacing: .7px;
   /* height: 130px; */
 }
 

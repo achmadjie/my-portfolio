@@ -18,7 +18,8 @@ const descText = Vollkorn({
 function Description() {
   return (
     <div
-      id="desc" className={`${styles.desc_section} position-relative w-100 d-flex justify-center align-items-center`}
+      id="desc"
+      className={`${styles.desc_section} position-relative w-100 d-flex justify-center align-items-center`}
     >
       <Image
         className={`${styles.vector_left} ${styles.vector}`}
@@ -33,8 +34,9 @@ function Description() {
             Hi, <span className={`${styles.heading_name}`}>Andi&apos;s </span>
             here. Obviously!
           </h2>
-          <p className={`${descText.className} ${styles.desc_text}`}>
-            {/* <TypeAnimation
+          <div className={`${styles.desc_paragraf} d-flex flex-column`}>
+            <p className={`${descText.className} ${styles.desc_text}`}>
+              {/* <TypeAnimation
               sequence={[
                 `Passionate about web development with a focus on frontend expertise. Proficient across diverse technologies and programming languages. Competent in crafting dynamic, responsive websites, leveraging frameworks like React.js and Bootstrap. Proven record of improving user satisfaction across multiple sites.
                 
@@ -47,13 +49,16 @@ function Description() {
               // deletionSpeed={70}
               omitDeletionAnimation={true}
             /> */}
-            Passionate about web development with a focus on frontend
-            expertise. Proficient across diverse technologies and programming
-            languages. Competent in crafting dynamic, responsive websites,
-            leveraging frameworks like React.js and Bootstrap. Proven record of
-            improving user satisfaction across multiple sites.
-          </p>
-          <p className={`${descText.className} ${styles.desc_text}`}></p>
+              Passionate about web development with a focus on frontend
+              expertise. Proficient across diverse technologies and programming
+              languages.
+            </p>
+            <p className={`${descText.className} ${styles.desc_text}`}>
+              Competent in crafting dynamic, responsive websites, leveraging
+              frameworks like React.js and Bootstrap. Proven record of improving
+              user satisfaction across multiple sites.
+            </p>
+          </div>
         </div>
         <Image
           className={`${styles.scrib_vector}`}
