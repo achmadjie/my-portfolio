@@ -84,7 +84,7 @@ function LatestProject() {
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>Tindog</h4>
+                <h4>Tindog Website</h4>
                 <h6>2023</h6>
               </div>
             </div>
@@ -155,7 +155,7 @@ function LatestProject() {
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>Tindog</h4>
+                <h4>Tindog Website</h4>
                 <h6>2022</h6>
               </div>
             </div>
@@ -170,7 +170,7 @@ function LatestProject() {
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>Gena&apos;Cakery</h4>
+                <h4>Gena&apos;s Cakery</h4>
                 <h6>2023</h6>
               </div>
             </div>
