@@ -59,9 +59,10 @@ span.heading_name {
 
 .vector_right {
   top: 0;
-  right: 15%;
+  right: 18%;
 }
 
 .scrib_vector {
   opacity: 85%;
+  width: 40%;
 }
