@@ -19,16 +19,16 @@ function Description() {
   return (
     <div
       id="desc"
-      className={`${styles.desc_section} position-relative w-100 d-flex justify-center align-items-center`}
+      className={`${styles.desc_section} position-relative d-flex justify-center align-items-center`}
     >
-      <Image
-        className={`${styles.vector_left} ${styles.vector}`}
-        src={tornado}
-        alt="tornado-vector"
-      />
       <div
         className={`${styles.desc_with_scrib} d-flex flex-column align-items-center`}
       >
+        <Image
+          className={`${styles.vector_left} ${styles.vector}`}
+          src={tornado}
+          alt="tornado-vector"
+        />
         <div className={`${styles.desc_container} d-flex flex-column gap-4`}>
           <h2 className={`${descText.className} ${styles.heading_text}`}>
             Hi, <span className={`${styles.heading_name}`}>Andi&apos;s </span>
@@ -65,12 +65,12 @@ function Description() {
           src={scrib}
           alt="scribble-vector"
         />
+        <Image
+          className={`${styles.vector} ${styles.vector_right} `}
+          src={smile_arrow}
+          alt="smile-arrow-vector"
+        />
       </div>
-      <Image
-        className={`${styles.vector} ${styles.vector_right} `}
-        src={smile_arrow}
-        alt="smile-arrow-vector"
-      />
     </div>
   );
 }
