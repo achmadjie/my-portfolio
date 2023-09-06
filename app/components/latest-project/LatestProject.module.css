@@ -30,16 +30,16 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-450px * 5));
+    transform: translateX(calc(-500px * 3));
   }
 }
 
 .carousel {
-  max-width: 450px;
-  max-height: 250px;
+  width: 500px;
+  height: 250px;
   display: flex;
   align-items: center;
-  padding: 10px;
+  margin: auto 10px;
   animation: scroll 25s linear infinite;
   scroll-behavior: smooth;
 }
@@ -59,8 +59,8 @@
   /* backface-visibility: hidden; */
   opacity: 1;
   transition: 0.9s ease;
-  max-width: 450px;
-  max-height: 250px;
+  max-width: 500px;
+  height: 250px;
 }
 
 .project_desc {
@@ -77,11 +77,11 @@
 }
 
 .project_desc h6 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .project_desc h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .carousel:hover .card {
