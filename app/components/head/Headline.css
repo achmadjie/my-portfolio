@@ -16,8 +16,10 @@
 }
 
 .profile-pic {
-  width: 15.625rem;
-  height: 15.625rem;
+  /* width: 15.625rem;
+  height: 15.625rem; */
+  width: 25%;
+  height: auto;
   border-radius: 15.625rem;
 }
 
@@ -30,15 +32,25 @@
 }
 
 h1.headline {
+  background: linear-gradient(10deg, red, yellow);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colors 5s linear infinite;
   font-size: 4.6875rem;
-  color: var(--orange);
+  color: var(--pure-white);
   width: fit-content;
+  cursor: default;
 }
+
+/* @keyframes colors {
+  
+} */
 
 p.headline-desc {
   font-size: 1.5rem;
   color: var(--pure-white);
   max-width: 23.5625rem;
+  cursor: default;
 }
 
 .star-top {
