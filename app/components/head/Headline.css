@@ -1,12 +1,13 @@
 .headline-container {
   background-color: var(--black);
   width: 100vw;
-  height: 89vh;
+  height: 89.5vh;
 }
 
 .main-container {
-  width: 100vw;
+  width: 85vw;
   /* height: 89vh; */
+
 }
 
 .main-headline {
@@ -41,7 +42,7 @@ p.headline-desc {
 }
 
 .star-top {
-  left: 880px;
+  right: 250px;
   top: 50px;
   animation-delay: 1s;
 }

@@ -1,11 +1,9 @@
 .project_container {
   background-color: var(--black);
   background-image: url("../../../public/waveBg.svg");
-  /* background-size: 100% 100%; */
   background-repeat: no-repeat;
-  padding: 25% 0;
-  object-fit: cover;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .project_heading {
@@ -16,15 +14,15 @@
 }
 
 .carousel_container {
-  width: 100%;
+  width: 100vw;
   height: 250px;
-  bottom: 18%;
+  bottom: 15%;
   overflow: hidden;
 }
 
 .carousel_track {
   overflow-x: scroll;
-  width: 100%;
+  width: 100vw;
 }
 
 @keyframes scroll {
