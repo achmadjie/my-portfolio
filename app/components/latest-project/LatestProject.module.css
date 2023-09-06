@@ -90,8 +90,10 @@
   filter: contrast(10%);
   filter: saturate(10%);
   filter: brightness(30%);
+  cursor: pointer;
 }
 
 .carousel:hover .project_desc {
   opacity: 1;
+  cursor: pointer;
 }

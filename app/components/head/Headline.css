@@ -1,11 +1,12 @@
 .headline-container {
   background-color: var(--black);
-  width: 100%;
+  width: 100vw;
+  height: 89vh;
 }
 
 .main-container {
-  width: 85%;
-  height: 655px;
+  width: 100vw;
+  /* height: 89vh; */
 }
 
 .main-headline {
