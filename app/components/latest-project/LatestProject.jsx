@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import cor1 from "../../assets/caro1.jpg";
-import cor2 from "../../assets/caro2.jpg";
-import cor3 from "../../assets/caro3.jpg";
-import cor4 from "../../assets/caro4.jpg";
-import cor5 from "../../assets/caro5.jpg";
+import cor1 from "../../assets/wartalutim.jpg";
+import cor2 from "../../assets/tin-dog.png";
+import cor3 from "../../assets/cakery.png";
+// import cor4 from "../../assets/caro4.jpg";
+// import cor5 from "../../assets/caro5.jpg";
 // import wave_vector from '../../../public/wave.svg'
+import Link from "next/link";
 
 import { Convergence } from "next/font/google";
 import styles from "./LatestProject.module.css";
@@ -58,45 +59,51 @@ function LatestProject() {
         >
           <div className={`${styles.carousel_track} d-flex position-relative`}>
             <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor1}
-                alt="carousel-image-1"
-              />
+              <Link href={"https://wartalutim-new-prototype.netlify.app/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor1}
+                  alt="carousel-image-1"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>One</h4>
+                <h4>Wartalutim Website</h4>
                 <h6>2023</h6>
               </div>
             </div>
             <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor2}
-                alt="carousel-image-2"
-              />
+              <Link href={"https://tin-doggy.netlify.app/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor2}
+                  alt="carousel-image-2"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>One</h4>
+                <h4>Tindog</h4>
                 <h6>2023</h6>
               </div>
             </div>
             <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor3}
-                alt="carousel-image-1"
-              />
+              <Link href={"https://genacakery.netlify.app/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor3}
+                  alt="carousel-image-3"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>One</h4>
-                <h6>2023</h6>
+                <h4>Gena&apos;s Cakery</h4>
+                <h6>2022</h6>
               </div>
             </div>
-            <div className={`position-relative ${styles.carousel}`}>
+            {/* <div className={`position-relative ${styles.carousel}`}>
               <Image
                 className={`${styles.card}`}
                 src={cor4}
@@ -121,47 +128,53 @@ function LatestProject() {
                 <h4>One</h4>
                 <h6>2023</h6>
               </div>
-            </div>
+            </div> */}
             <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor1}
-                alt="carousel-image-1"
-              />
+              <Link href={"https://wartalutim-new-prototype.netlify.app/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor1}
+                  alt="carousel-image-1"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>One</h4>
+                <h4>Wartalutim Website</h4>
                 <h6>2023</h6>
               </div>
             </div>
             <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor2}
-                alt="carousel-image-2"
-              />
+              <Link href={"https://tin-doggy.netlify.app/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor2}
+                  alt="carousel-image-2"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>One</h4>
-                <h6>2023</h6>
+                <h4>Tindog</h4>
+                <h6>2022</h6>
               </div>
             </div>
             <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor3}
-                alt="carousel-image-1"
-              />
+              <Link href={"https://genacakery.netlify.app/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor3}
+                  alt="carousel-image-3"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}
               >
-                <h4>One</h4>
+                <h4>Gena&apos;Cakery</h4>
                 <h6>2023</h6>
               </div>
             </div>
-            <div className={`position-relative ${styles.carousel}`}>
+            {/* <div className={`position-relative ${styles.carousel}`}>
               <Image
                 className={`${styles.card}`}
                 src={cor4}
@@ -186,7 +199,7 @@ function LatestProject() {
                 <h4>One</h4>
                 <h6>2023</h6>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
