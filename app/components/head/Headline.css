@@ -146,6 +146,10 @@ p.headline-desc {
 }
 
 @media (max-width: 431px) {
+  .headline-container{
+    height: 85vh;
+  }
+  
   .main-headline {
     flex-direction: column;
     text-align: center;
