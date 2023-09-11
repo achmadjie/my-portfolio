@@ -147,8 +147,8 @@ p.headline-desc {
 
 @media (max-width: 431px) {
   .headline-container{
-    /* height: 85vh; */
-    height: 100vh;
+    height: 85vh;
+    /* height: 100vh; */
   }
   
   .main-headline {
