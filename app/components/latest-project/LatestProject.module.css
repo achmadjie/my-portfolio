@@ -99,13 +99,13 @@
 
 @media (max-width: 431px) {
   .project_heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
     top: 30%;
   }
 
   .carousel_container{
     height: 200px;
-    bottom: 20%;
+    bottom: 25%;
   }
 
   .carousel{
