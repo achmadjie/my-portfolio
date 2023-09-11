@@ -24,15 +24,40 @@
     0px 0px 561.2039794921875px 0px #fe6b00;
 }
 
+.link-text{
+  gap: 20px;
+}
+
 .font-color {
   color: var(--pure-white);
+}
+
+.about-text{
+  padding: 8px 16px;
 }
 
 .bg-color {
   background-color: var(--black);
   width: 100vw;
+  padding: 0 48px;
 }
 
-.nav-font {
-  font-family: var(--heading-font);
+@media (max-width: 431px){
+  .bg-color {
+    padding: 0 20px;
+  }
+
+  .logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .link-text{
+    font-size: 0.9375rem;
+    gap: 15px;
+  }
+
+  .about-text{
+    padding: 10px 15px;
+  }
 }

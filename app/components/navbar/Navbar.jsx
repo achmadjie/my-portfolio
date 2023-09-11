@@ -13,16 +13,16 @@ const conv = Convergence({
 function Navbar() {
   return (
     <div
-      className={`d-flex justify-content-between bg-color px-5 ${conv.className}`}
+      className={`d-flex justify-content-between bg-color ${conv.className}`}
     >
       <Link href={"/"}>
         <Image className="logo" src={logo} alt="logo-img" />
       </Link>
-      <div className="d-flex align-items-center column-gap-4">
+      <div className="d-flex align-items-center link-text">
         <a href="#desc" className="font-color">
           About
         </a>
-        <a href="#footer" className="border-1 rounded-pill px-3 py-2 color">
+        <a href="#footer" className="border-1 rounded-pill color about-text">
           Say Hello
         </a>
       </div>
