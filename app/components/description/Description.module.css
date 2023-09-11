@@ -66,3 +66,34 @@ span.heading_name {
   opacity: 85%;
   width: 40%;
 }
+
+@media (max-width: 431px){
+  .vector{
+    display: none;
+  }
+
+  .desc_container{
+    width: 80vw;
+  }
+
+  .desc_with_scrib {
+    gap: 30px;
+  }
+
+  .heading_text{
+    font-size: 1.5rem;
+  }
+
+  .desc_paragraf{
+    gap: 10px;
+    width: 80vw;
+  }
+
+  .desc_text{
+    font-size: 0.9375rem;
+  }
+
+  .scrib_vector{
+    width: 80%;
+  }
+}
