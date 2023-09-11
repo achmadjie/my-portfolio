@@ -5,6 +5,7 @@ import "./globals.css";
 import Headline from "./components/head/Headline";
 import Description from "./components/description/Description";
 import LatestProject from "./components/latest-project/LatestProject";
+// import sad from "../public/Anggi Marito Tak Segampang Itu.mp3"
 // import CorsItem from './components/carousel-item/CarouselItem'
 import Footer from "./components/footer/Footer";
 
@@ -27,13 +28,13 @@ export default function RootLayout({ children }) {
           <Headline />
         </section>
         <section>
-          <Description />
+          {/* <Description /> */}
         </section>
         <section>
-          <LatestProject />
+          {/* <LatestProject /> */}
         </section>
         <section>
-          <Footer />
+          {/* <Footer /> */}
         </section>
         {/* <CorsItem /> */}
       </body>
