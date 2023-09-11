@@ -90,7 +90,7 @@ function Headline() {
             </p>
           </div>
         </div>
-        <div className="d-flex align-items-start keep-scroll-container position-absolute bottom-0 justify-center">
+        <div className="d-flex keep-scroll-container position-absolute bottom-0 justify-center">
           <div className={`arrow-down position-relative`}>
             <BsArrowDown className={`keep-scroll-icon`} />
             {/* <Image className={`.keep-scroll-icon`} src={scroll_arrow} alt="arrow-scroll-down" /> */}
