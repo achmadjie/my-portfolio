@@ -8,6 +8,7 @@ import snakeVector from "../../../public/snakes.svg";
 import cubeVector from "../../../public/cubes.svg";
 import "animate.css";
 import blink from "../../../public/blink.svg";
+import plane from "../../../public/plane.svg";
 
 import styles from "./Footer.module.css";
 
@@ -27,6 +28,13 @@ const Footer = () => {
       id="footer"
       className={`${styles.footer_section} position-relative d-flex flex-column align-items-center justify-center`}
     >
+      <div className={`${styles.plane_container} position-absolute`}>
+        <Image
+          className={`${styles.plane_vector} position-absolute`}
+          src={plane}
+          alt="plane-vector"
+        />
+      </div>
       <Image
         className={`position-absolute top-10 left-8 ${styles.cube_vector}`}
         src={cubeVector}
