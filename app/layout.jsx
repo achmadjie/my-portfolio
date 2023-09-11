@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
           <LatestProject />
         </section>
         <section>
-          <Footer />
+          {/* <Footer /> */}
         </section>
         {/* <CorsItem /> */}
       </body>
