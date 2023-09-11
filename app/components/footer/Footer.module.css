@@ -7,6 +7,10 @@
   gap: 2rem;
 }
 
+.plane_container{
+	display: none;
+}
+
 .blink_title {
   /* width: 50%; */
   width: 465px;
@@ -107,6 +111,31 @@
 @media (max-width: 431px) {
   .footer_section {
     gap: 1rem;
+  }
+
+  .plane_container{
+	display: inline-block;
+	/* background-color: red; */
+	width: 102vw;
+	height: 12vh;
+	transform: rotate(-15deg);
+	top: 10%;
+	overflow: hidden;
+  }
+
+  .plane_vector{
+	/* transform: rotate(50deg); */
+	animation: fly 3s linear infinite;
+  }
+
+  @keyframes fly {
+	0%{
+		transform: translateX(-50px) rotate(50deg);
+	}
+	100%{
+		transform: translateX(100vw) rotate(50deg);
+	}
+	
   }
 
   .blink_title {
