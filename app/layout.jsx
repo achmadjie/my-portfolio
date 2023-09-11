@@ -28,13 +28,13 @@ export default function RootLayout({ children }) {
           <Headline />
         </section>
         <section>
-          {/* <Description /> */}
+          <Description />
         </section>
         <section>
-          {/* <LatestProject /> */}
+          <LatestProject />
         </section>
         <section>
-          {/* <Footer /> */}
+          <Footer />
         </section>
         {/* <CorsItem /> */}
       </body>
