@@ -9,14 +9,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --orange: #FE6B00;
-  --pure-white: #F1F6F5;
-  --black: #1F1F1F;
+  --orange: #fe6b00;
+  --pure-white: #f1f6f5;
+  --black: #1f1f1f;
   --heading-font: "Convergence";
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
-a{
+a {
   text-decoration: unset;
 }
 @media (prefers-color-scheme: dark) {
@@ -24,7 +24,7 @@ a{
     /* --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0; */
-    background-color: var(--black); 
+    background-color: var(--black);
   }
 }
 
@@ -32,8 +32,8 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-section{
-  scroll-snap-align: end;
+section {
+  scroll-snap-align: start;
 }
 /* 
 body {
