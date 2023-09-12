@@ -66,16 +66,16 @@ const Footer = () => {
       </div>
       <div className={`${styles.footer_socmed} d-flex flex-row`}>
         <Link href="https://www.facebook.com/achmadjieee">
-          <FaFacebook className={`${styles.socmed_logo}`} />
+          <FaFacebook className={`${styles.socmed_logo} ${styles.facebook_logo}`} />
         </Link>
         <Link href="https://www.instagram.com/achmadjie_">
-          <BsInstagram className={`${styles.socmed_logo}`} />
+          <BsInstagram className={`${styles.socmed_logo} ${styles.instagram_logo}`} />
         </Link>
         <Link href="https://www.linkedin.com/in/achmadjie">
-          <FaLinkedin className={`${styles.socmed_logo}`} />
+          <FaLinkedin className={`${styles.socmed_logo} ${styles.linkedin_logo}`} />
         </Link>
         <Link href="https://github.com/achmadjie">
-          <BsGithub className={`${styles.socmed_logo}`} />
+          <BsGithub className={`${styles.socmed_logo} ${styles.github_logo}`} />
         </Link>
       </div>
       <div

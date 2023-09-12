@@ -7,8 +7,8 @@
   gap: 2rem;
 }
 
-.plane_container{
-	display: none;
+.plane_container {
+  display: none;
 }
 
 .blink_title {
@@ -46,8 +46,11 @@
 }
 
 .footer_title {
+  background: linear-gradient(10deg, red, yellow);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2.5rem;
-  color: var(--orange);
+  /* color: var(--orange); */
   font-weight: bold;
   cursor: default;
 }
@@ -62,7 +65,7 @@
 }
 
 .socmed_logo {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 
 .copyright_section span {
@@ -88,8 +91,25 @@
 }
 
 .socmed_logo:hover {
-  color: blue;
-  transition: 0.5s;
+  transition: 0.4s;
+  transform: rotate(360deg);
+}
+
+.facebook_logo:hover {
+  color: #1877f2;
+}
+
+.instagram_logo:hover {
+  /* background: linear-gradient(10deg, #f9ce34, #ee2a7b, #6228d7); */
+  color: #ee2a7b;
+}
+
+.linkedin_logo:hover {
+  color: #0078c7;
+}
+
+.github_logo:hover {
+  color: #f5f5f5;
 }
 
 /* .snake_vector{
@@ -113,29 +133,28 @@
     gap: 1rem;
   }
 
-  .plane_container{
-	display: inline-block;
-	/* background-color: red; */
-	width: 102vw;
-	height: 12vh;
-	transform: rotate(-15deg);
-	top: 10%;
-	overflow: hidden;
+  .plane_container {
+    display: inline-block;
+    /* background-color: red; */
+    width: 102vw;
+    height: 12vh;
+    transform: rotate(-15deg);
+    top: 10%;
+    overflow: hidden;
   }
 
-  .plane_vector{
-	/* transform: rotate(50deg); */
-	animation: fly 3s linear infinite;
+  .plane_vector {
+    /* transform: rotate(50deg); */
+    animation: fly 3s linear infinite;
   }
 
   @keyframes fly {
-	0%{
-		transform: translateX(-50px) rotate(50deg);
-	}
-	100%{
-		transform: translateX(100vw) rotate(50deg);
-	}
-	
+    0% {
+      transform: translateX(-20vw) rotate(50deg);
+    }
+    100% {
+      transform: translateX(100vw) rotate(50deg);
+    }
   }
 
   .blink_title {
@@ -162,6 +181,15 @@
     gap: 0.5rem;
   }
 
+  /* .contact_details{
+    background: right / 0% 100% no-repeat linear-gradient(10deg, red, yellow);
+    transition: background-size 500ms;
+  }
+
+  .contact_details:hover{
+    background: left / 100% 100% no-repeat linear-gradient(10deg, red, yellow);
+  } */
+
   .footer_socmed {
     gap: 0.7rem;
   }
@@ -170,15 +198,11 @@
     font-size: 1.7rem;
   }
 
-  .cube_vector{
-	display: none;
-  }
-
-  .snake_vector{
-	display: none;
+  .cube_vector, .snake_vector {
+    display: none;
   }
 
   .copyright_section span {
-	font-size: 0.6rem;
+    font-size: 0.6rem;
   }
 }
