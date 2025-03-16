@@ -4,7 +4,7 @@ import cor1 from "../../assets/wartalutim.jpg";
 import cor2 from "../../assets/tin-dog.png";
 import cor3 from "../../assets/cakery.png";
 import cor4 from "../../assets/inagov.png";
-// import cor5 from "../../assets/caro5.jpg";
+import cor5 from "../../assets/ethereal.png";
 // import wave_vector from '../../../public/wave.svg'
 import Link from "next/link";
 
@@ -99,29 +99,33 @@ function LatestProject() {
               </div>
             </div>
             <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor4}
-                alt="carousel-image-1"
-              />
+              <Link href={"https://inagov.go.id/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor4}
+                  alt="carousel-image-4"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}>
                 <h4>INAgov Website</h4>
                 <h6>2024</h6>
               </div>
             </div>
-            {/* <div className={`position-relative ${styles.carousel}`}>
-              <Image
-                className={`${styles.card}`}
-                src={cor5}
-                alt="carousel-image-1"
-              />
+            <div className={`position-relative ${styles.carousel}`}>
+              <Link href={"https://ethereal-website.netlify.app/"}>
+                <Image
+                  className={`${styles.card}`}
+                  src={cor5}
+                  alt="carousel-image-5"
+                />
+              </Link>
               <div
                 className={`${styles.project_desc} d-flex position-absolute`}>
-                <h4>One</h4>
-                <h6>2023</h6>
+                <h4>Ethereal</h4>
+                <h6>2025</h6>
               </div>
-            </div> */}
+            </div>
             <div className={`position-relative ${styles.carousel}`}>
               <Link href={"https://wartalutim-new-prototype.netlify.app/"}>
                 <Image
@@ -178,19 +182,18 @@ function LatestProject() {
                 <h6>2024</h6>
               </div>
             </div>
-            {/* <div className={`position-relative ${styles.carousel}`}>
+            <div className={`position-relative ${styles.carousel}`}>
               <Image
                 className={`${styles.card}`}
                 src={cor5}
-                alt="carousel-image-1"
+                alt="carousel-image-5"
               />
               <div
-                className={`${styles.project_desc} d-flex position-absolute`}
-              >
-                <h4>One</h4>
-                <h6>2023</h6>
+                className={`${styles.project_desc} d-flex position-absolute`}>
+                <h4>Ethereal</h4>
+                <h6>2025</h6>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
