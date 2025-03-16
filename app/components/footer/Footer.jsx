@@ -26,8 +26,7 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className={`${styles.footer_section} position-relative d-flex flex-column align-items-center justify-center`}
-    >
+      className={`${styles.footer_section} position-relative d-flex flex-column align-items-center justify-center`}>
       <div className={`${styles.plane_container} position-absolute`}>
         <Image
           className={`${styles.plane_vector} position-absolute`}
@@ -41,8 +40,7 @@ const Footer = () => {
         alt="Cube-Vector"
       />
       <div
-        className={`d-flex justify-center align-items-center position-relative ${styles.blink_title}`}
-      >
+        className={`d-flex justify-center align-items-center position-relative ${styles.blink_title}`}>
         <div className={`${styles.blink_container} position-absolute`}>
           <Image
             className={`${styles.blink_img}`}
@@ -55,8 +53,7 @@ const Footer = () => {
         </h2>
       </div>
       <div
-        className={`${styles.footer_contact} ${vol.className} d-flex flex-column text-center`}
-      >
+        className={`${styles.footer_contact} ${vol.className} d-flex flex-column text-center`}>
         <span className={`${styles.contact_details}`}>
           <a href="mailto:achmdadjie@gmail.com">achmdadjie@gmail.com</a>
         </span>
@@ -66,22 +63,27 @@ const Footer = () => {
       </div>
       <div className={`${styles.footer_socmed} d-flex flex-row`}>
         <Link href="https://www.facebook.com/achmadjieee">
-          <FaFacebook className={`${styles.socmed_logo} ${styles.facebook_logo}`} />
+          <FaFacebook
+            className={`${styles.socmed_logo} ${styles.facebook_logo}`}
+          />
         </Link>
         <Link href="https://www.instagram.com/achmadjie_">
-          <BsInstagram className={`${styles.socmed_logo} ${styles.instagram_logo}`} />
+          <BsInstagram
+            className={`${styles.socmed_logo} ${styles.instagram_logo}`}
+          />
         </Link>
         <Link href="https://www.linkedin.com/in/achmadjie">
-          <FaLinkedin className={`${styles.socmed_logo} ${styles.linkedin_logo}`} />
+          <FaLinkedin
+            className={`${styles.socmed_logo} ${styles.linkedin_logo}`}
+          />
         </Link>
         <Link href="https://github.com/achmadjie">
           <BsGithub className={`${styles.socmed_logo} ${styles.github_logo}`} />
         </Link>
       </div>
       <div
-        className={`${styles.copyright_section} ${conv.className} d-flex flex-column justify-center text-center position-absolute bottom-5`}
-      >
-        <span>©2023 Andi Achmad Adjie</span>
+        className={`${styles.copyright_section} ${conv.className} d-flex flex-column justify-center text-center position-absolute bottom-5`}>
+        <span>©2025 Andi Achmad Adjie</span>
         <span>All Rights Reserved</span>
       </div>
       <Image
